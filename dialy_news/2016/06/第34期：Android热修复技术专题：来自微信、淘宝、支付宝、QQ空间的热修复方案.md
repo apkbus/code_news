@@ -4,7 +4,7 @@
  
  这时候就提出一个问题：有没有办法以补丁的方式动态修复紧急Bug，不再需要重新发布App，不再需要用户重新下载，覆盖安装？答案当然是有的，那就是最近涌现出来得热补丁方案，主要包括淘宝的Dexposed、支付宝的AndFix、QQ空间的ClassLoader、微信的Tinker、Nuwa五种。事实上，Android官方也使用热补丁技术实现Instant Run。它分为Hot Swap、Warm Swap与Cold Swap三种方式，大家可以参考英文介绍，也可以看参考文章中的翻译稿。最新的Instant App应该也是采用类似的原理，但是Google Play是不允许下发代码的，这个海外App需要注意一下。
  
- 关于热补丁方案做了如下专题文章推荐，如果大家有更多好的文章，欢迎提交Pull Request，或者Issues
+ 关于热补丁方案做了如下专题文章推荐，如果大家有更多好的文章，欢迎提交Pull Request，或者Issues。文章全部来自了[Diycode News](http://diycode.cc/news)
 
 1、[	Dexposed、AndFix、ClassLoader等各大热补丁方案分析和比较](http://blog.zhaiyifan.cn/2015/11/20/HotPatchCompare/)
 
